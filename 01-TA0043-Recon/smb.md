@@ -7,3 +7,6 @@ smbmap -H <HOST> -u none
 
 # smbclient
 crackmapexec smb <HOST>
+
+# rpcclient
+rpcclient -U "" <HOST> -N
